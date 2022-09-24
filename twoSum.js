@@ -1,4 +1,4 @@
-require('dotenv').config()
+//require('dotenv').config()
 const { twoSum }  = require(`${process.env.TWOSUMFILE}`);
 
 const compilerResults = []
