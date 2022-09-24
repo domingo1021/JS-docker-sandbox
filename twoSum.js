@@ -1,4 +1,3 @@
-require('dotenv').config
 const { twoSum }  = require(process.env.TOWSUMFILE);
 
 //Test two sum
