@@ -21,7 +21,7 @@ async function compile() {
   const userCodeFile = process.env.TEST_CODE_FILE
   let compilerResult;
   try {
-    compilerResult = await runCommand(`docker run -v \$\(pwd\)/user_tmp_codes:/bunny_code/user_tmp_codes -e TOWSUMFILE=${userCodeFile} --rm sandbox /bunny_code/twoSum.js`);
+    compilerResult = await runCommand(`docker run -v \$\(pwd\)/${userCodeFile}:/bunny_code/user_tmp_codes -e TOWSUMFILE=${userCodeFile} --rm sandbox /bunny_code/twoSum.js`);
   } catch (error) {
     compilerResult = error;
   }
