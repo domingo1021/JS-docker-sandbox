@@ -1,0 +1,23 @@
+{
+  "name": "js-docker-sandbox",
+  "version": "1.0.0",
+  "description": "Docker tool to implement coding sanbox",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/domingo1021/JS-docker-sandbox.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/domingo1021/JS-docker-sandbox/issues"
+  },
+  "homepage": "https://github.com/domingo1021/JS-docker-sandbox#readme",
+  "dependencies": {
+    "dotenv": "^16.0.2"
+  }
+}
