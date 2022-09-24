@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/domingo1021/JS-docker-sandbox#readme",
   "dependencies": {
+    "child-process": "^1.0.2",
     "dotenv": "^16.0.2"
   }
 }
